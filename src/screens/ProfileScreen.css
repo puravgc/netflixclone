@@ -1,0 +1,88 @@
+.profile{
+  background-color: #1c1c1c;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  letter-spacing: 1px;
+}
+.mainprofile{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.details{
+  display: flex;
+  width: 100%;
+}
+.details img{
+  height: 90px;
+}
+.container hr{
+  width: 100%;
+  border-color: grey;
+}
+
+.heading{
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.firstpart{
+  width: 100%;
+}
+.email{
+  margin-top: 0;
+  margin-left: 20px;
+  background-color: grey;
+  width: 40vw;
+}
+.email h2{
+  font-size: 15px;
+
+
+}
+.firstpart h1{
+  margin-top: -10px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.firstpart hr{
+  width: 90%;
+  border-color: grey;
+}
+
+.stan,.basic,.prem{
+  display: flex;
+  justify-content: space-between;
+}
+.stan button,.basic button,.prem button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 25%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signout{
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}

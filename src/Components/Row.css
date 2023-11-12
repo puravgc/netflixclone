@@ -1,0 +1,25 @@
+.row{
+  color: white;
+  margin-left: 20px;
+}
+.content img{
+  max-height: 300px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.content img:hover{
+  transform: scale(1.08);
+}
+
+.content{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+}
+.content::-webkit-scrollbar{
+  display: none;
+}
+h2{
+  padding: 20px;
+}
